@@ -14,6 +14,7 @@ public class Main {
                 array[i] = scn.nextInt();
             }catch(InputMismatchException e){
                 System.out.println("Error : " + e);
+                System.out.println("Puoi inserire solo un valore intero!!");
             }catch (Exception e){
                 System.out.println("Error : " + e);
             }
